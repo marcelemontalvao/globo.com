@@ -1,0 +1,104 @@
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    height: 80px;
+}
+
+.logo-desktop {
+    display: initial;
+}
+
+.logo-mobile {
+    display: none;
+}
+
+.menu {
+    width: 100%;
+    height: 56px;
+    border-top: 1px solid var(--color-grey-2);
+    border-bottom: 1px solid var(--color-grey-2);
+}
+
+.menu-opcoes {
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.g1 {
+    color: #c3170c;
+}
+  
+.o-globo {
+    color: #1e4b9b;
+}
+  
+.valor {
+    color: var(--color-green-3);
+}
+  
+.ge {
+    color: var(--color-green-2);
+}
+  
+.cartola {
+    color: var(--color-orange-3);
+}
+  
+.globoplay {
+    color: #fb0735;
+}
+  
+.dropz {
+    color: #ff75bb;
+}
+  
+.gshow {
+    color: var(--color-orange-2);
+}
+  
+.quem {
+    color: var(--color-black-2);
+}
+  
+.receitas {
+    color: #a81d83;
+}
+
+@media(max-width: 375px) {
+
+    .logo-desktop, .mobile-none {
+        display: none;
+    }
+
+    .logo-mobile {
+        display: initial;
+    }
+
+    .menu-opcoes {
+        width: 85%;
+    }
+
+    .g1 {
+        color: var(--color-red-3);
+    }
+
+    .ge {
+        color: var(--color-green-4);
+    }
+
+    .quem {
+        color: var(--color-grey-1);
+    }
+
+    .receitas {
+        color: var(--color-blue-1);
+    }
+}
